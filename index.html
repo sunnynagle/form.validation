@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#7ed6df">
+    
+    <form>
+      <fieldset>
+        <legend>  Enquiry:</legend>
+        <div class="1"width="15px">
+        Name:<input type="text" name="name" value="" placeholder="Enter you name" required="" autofocus="" maxlength="5"><br><br>
+    </div>
+        Address:<textarea name="Address" value="" placeholder="Enter you Address" required="" autofocus=""></textarea>
+        <br><br>
+        Gender:
+        <input type="radio" value="m" name="Gender" required="" checked="">Male
+        <input type="radio" value="f" name="Gender">Fmale
+        <input type="radio" value="os" name="Gender">other <br><br>
+        Email:
+        <input type="email"name=email required=""><br><br>
+
+        password:
+        <input type="password"name=password required="" autofocus="" maxlength="8"><br><br>
+        age:
+        <input type="number"name=age required="" min="1" max="10" maxlength="10"><br><br>
+        phone number:
+        <input type="number" name="   phone number" required="" maxlength="10"><br><br>
+        Boi date:
+        <input type="date" name="   Boi date" required=""><br><br>
+        time date:
+        <input type="datetime-local" name=" time date"required=""><br><br>
+        time:
+        <input type="time" name=" time"><br><br>
+        month:
+        <input type="month" name=" time"><br><br>
+        week:
+        <input type="week" name=" week"><br><br>
+        Range:
+<input type="range"name="Range" min="10" max="200"><br><br>
+color:
+<input type="color"name="color" value="#ff0000"><br><br>
+
+
+
+
+
+      Country;
+         <select required=""> 
+            <option value="">please select a Country</option>
+            <optgroup label="ASIA">
+                
+            <option value="india">india</option>
+            <option value="nepal">nepal</option>
+        </optgroup>
+
+            <option value="USA">USA</option>
+         </select><br><br>
+         Hobbies: 
+         <input type="checkbox" name="Dancing[]">Dancing 
+         <input type="checkbox" name="siging[]" checked="">siging <br><br>
+         image:
+         <input type="file"name="image"><br><br>
+        
+
+
+
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+    </form>
+</body>
+</html>
